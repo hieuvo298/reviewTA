@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table thead tr {
+    background-color: gray;
+   
+}
+
+table thead tr th,table tbody tr td {
+    padding: 10px 0;
+}
+table img{
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.payment,
+table tbody tr td button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.payment {
+    margin-top: 50px;
+}
